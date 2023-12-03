@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="dist/css/style.css"/>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&family=Manrope:wght@500&family=Overpass&family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Article preview component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 20px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="article">
+    <img src="images/drawers.jpg" alt="drawers" class="drawers-image"/>
+    <div class="article-content">
+      <div>
+        <h1 class="article-head">
+          Shift the overall look and feel by adding these wonderful 
+          touches to furniture in your home
+        </h1>
+        <p class="article-body">
+        Ever been in a room and felt like something was missing? Perhaps 
+        it felt slightly bare and uninviting. I’ve got some simple tips 
+        to help you make any room feel complete.
+        </p>
+      </div>
+      <div class="article-author">
+        <img src="images/avatar-michelle.jpg" alt="author photo" class="article-author-photo"/>
+        <div class="article-author-body">
+          <header class="article-author-name">Michelle Appleton</header>
+          <p class="article-date">28 Jun 2020</p>
+        </div>
+        <div class="share-section">
+          <button class="share-button" id="share-button"><img src="images/icon-share.svg" alt="share logo" class="share-button-logo"/></button>
+          <div class="share-bar hidden" id="share-bar">
+            <span class="share-text">S H A R E</span>
+            <img src="images/icon-facebook.svg" alt="facebook logo" class="share-logo"/>
+            <img src="images/icon-twitter.svg" alt="twitter logo" class="share-logo"/>
+            <img src="images/icon-pinterest.svg" alt="pinterest logo" class="share-logo"/>
+          </div>
+          <div class="share-bar-triangle hidden" id="bar-triangle"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Eo Soo Kim</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
